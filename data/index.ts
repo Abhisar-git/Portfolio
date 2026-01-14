@@ -70,22 +70,30 @@ export const gridItems = [
 export const Projects = [
   {
     id: 1,
-    title: "Full-Stack Blog Platform (MERN)",
-    des: "A complete blog website built with the MERN stack, featuring a RESTful API, user authentication, and a dynamic React front-end for creating and managing posts.",
-    img: "/p_blog.svg", // Replace with your project screenshot
-    iconLists: ["/re.svg", "/node.svg", "/express.svg", "/mongo.svg", "/tail.svg"],
-    link: "https://github.com/your-username/mern-blog-repo", // Replace with your GitHub link
+    title: "EduSync AI",
+    des: "An AI learning platform featuring a customizable AI Companion with 50+ teaching styles and real-time voice interactions using Vapi AI with sub-200ms latency.",
+    img: "/p_edusync.svg", 
+    iconLists: ["/next.svg", "/ts.svg", "/supabase.svg", "/clerk.svg", "/vapi.svg"],
+    link: "https://github.com/Abhisar-git/lmsai", // Update with your actual repo name
   },
   {
     id: 2,
-    title: "High-Performance Web Scraper (C++)",
-    des: "A command-line web scraping tool built in C++ for maximum performance and efficiency in extracting data from complex HTML structures.",
-    img: "/p_scraper.svg", // Replace with your project screenshot
-    iconLists: ["/cpp.svg"],
-    link: "https://github.com/your-username/cpp-scraper-repo", // Replace with your GitHub link
+    title: "Real-Time Chat Application",
+    des: "A full-stack messaging system using Socket.io for instant delivery, featuring secure media uploads via Cloudinary and state management with Zustand.",
+    img: "/p_chat.svg",
+    iconLists: ["/re.svg", "/node.svg", "/mongo.svg", "/socket.svg", "/tail.svg"],
+    link: "https://github.com/Abhisar-git/Chattr", // Update with your actual repo name
   },
+  {
+    id: 3,
+    title: "College Blogging Platform",
+    des: "A MERN-based platform with role-based access control for 5 user roles, featuring CI/CD via GitHub Actions and Redux for 30% faster responsiveness.",
+    img: "/p_blog.svg",
+    iconLists: ["/re.svg", "/node.svg", "/redux.svg", "/docker.svg", "/github-actions.svg"],
+    link: "https://github.com/Abhisar-git/College-Blog", // Update with your actual repo name
+  },
+  
 ];
-
 
 export const workExperience = [
   {
