@@ -5,12 +5,14 @@ import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function Home() {
   return (
     <main>
       <div className = "relative bg-black text-white flex items-center justify-center flex-col mx-auto sm:px-10 px-5 ">
         <div className="max-w-7xl w-full ">
          <FloatingNav navItems = {navItems}/>
+         <SpeedInsights/>
          <Hero/> 
          <Grid/>
          <RecentProjects/>
