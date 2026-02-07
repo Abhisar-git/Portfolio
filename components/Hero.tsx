@@ -42,7 +42,7 @@ const Hero = () => {
               Learning, Full Stack Development and building what&apos;s next.
             </p>
             
-            <Link href="https://drive.google.com/file/d/1-0pBwmPd3lEzYv0a-pJSw7AptqOBDhiG/view?usp=drive_link">
+            <Link href="https://drive.google.com/file/d/19bHHQk51UdbhBDyvWDx0V110gHUkM_NA/view?usp=drive_link">
               <Button title="See My Resume"/> 
 
             </Link>
